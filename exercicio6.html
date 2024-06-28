@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custo ao Consumidor de um Carro</title>
+    <script src="exercicio6.js"></script>
+    <link rel="shortcut icon" href="rocket_7105688.pngg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cálculo do Custo ao Consumidor de um Carro</h1>
+    <form id="carCostForm">
+        <label for="factoryCost">Custo de Fábrica:</label>
+        <input type="number" id="factoryCost" name="factoryCost" required>
+        
+        <label for="distributorPercent">Percentual do Distribuidor (%):</label>
+        <input type="number" id="distributorPercent" name="distributorPercent" required>
+        
+        <button type="button" onclick="calculateCarCost()">Calcular</button>
+    </form>
+    
+    <div id="result"></div>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
